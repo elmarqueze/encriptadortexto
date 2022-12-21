@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+/*==================== SECCIÓN IZQUIERDA =================*/
+
+.main__container {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F3F5FC;
+}
+
+.container__izquierda {
+    width: 880px;
+    display: flex;
+    justify-content: row;
+    /* display: flex; */
+}
+
+.container__izquierda img {
+    /* width: 20%; */
+    height: 15%;
+}
+
+.container_izquierda_text {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 60%;
+    margin-top: 30%;
+    margin-left: 10%;
+    /* position: relative;
+    right: 0px; */
+}
+
+
+.container_izquierda_text textarea {
+    width: 100%;
+    height: 80%;
+    resize: none;
+    background-color: #F3F5FC;
+    border-style: none;
+    margin-bottom: 3rem;
+}
+
+.container_izquierda_text textarea::placeholder {
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 150%;
+}
+
+.container_izquierda_text p {
+    color: #495057;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 150%;
+    gap: 8px;
+
+    margin-bottom: 1rem;
+}
+
+.btn {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn .btn1 {
+    background: #0A3871;
+    border-radius: 24px;
+    width: 48%;
+    height: 95%;
+    color: #fff;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: center;
+}
+
+.btn .btn2 {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    width: 48%;
+    height: 95%;
+    color: #0A3871;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: center;
+}
+
+
+
+/*==================== SECCIÓN DERECHA =================*/
+
+.container__rectangulo {
+    background-color: #fff;
+    width: 400px;
+    height: 944px;
+    border-radius: 2rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#img {
+   /* position: absolute;  */
+   height: 50%;
+   margin: 100px 0px 32px 0px;
+   /* position: relative;
+   width: 100%; */
+   /* width: 336px; */
+}
+
+.container__rectangulo__textos {
+    margin: 0 32px
+}
+
+.container__rectangulo__textos h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+}
+
+.container__rectangulo__textos p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    margin-top: 1rem;
+
+}
