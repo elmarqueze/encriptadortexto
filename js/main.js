@@ -5,7 +5,7 @@ const encrypt = text => {
     .replace(/i/g, "imes")
     .replace(/a/g, "ai")
     .replace(/o/g, "ober")
-    .replace(/u/g, "ufat")
+    // .replace(/u/g, "ufat")
 }
 
 const decrypt = text => {
